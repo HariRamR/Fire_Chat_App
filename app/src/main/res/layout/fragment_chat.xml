@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:id="@+id/bottom"
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageBtn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/gallery"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/fileBtn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/file"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/imageBtn"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imageBtn" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/msg_input"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:hint="@string/type_a_message"
+            android:layout_toEndOf="@+id/fileBtn"
+            android:layout_toLeftOf="@id/sendBtn"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_toStartOf="@id/sendBtn"
+            android:layout_toRightOf="@+id/fileBtn"
+            android:theme="@style/Text_Input_EditText_style"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:background="@drawable/ic_send"
+            android:layout_centerVertical="true"
+            android:id="@+id/sendBtn"
+            android:layout_alignParentEnd="true"
+            android:visibility="invisible"
+            android:clickable="false"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

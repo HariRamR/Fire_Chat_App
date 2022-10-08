@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimary">#222A35</color>
+    <color name="colorPrimaryDark">#222A35</color>
+    <color name="colorAccent">#222A35</color>-->
+    <color name="colorPrimary">#514EDB</color>
+    <color name="colorPrimaryDark">#3B39B1</color>
+    <color name="colorAccent">#514EDB</color>
+    <color name="colorPrimaryLight">#66514EDB</color>
+<!--    <color name="colorAccent">#FF4081</color>-->
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_shade">#333333</color>
+    <color name="grey">#4D5057</color>
+    <color name="green">#4FC18A</color>
+    <color name="blue">#4FADF8</color>
+
+    <color name="primary_txt_color">#5B5B5B</color>
+    <color name="sub_txt_color">#969696</color>
+    <color name="view_color">#B7B7B7</color>
+    <color name="light_grey">#E8E7E7</color>
+</resources>

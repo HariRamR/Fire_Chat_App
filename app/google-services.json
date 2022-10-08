@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973951282210",
+    "project_id": "chat-app-2-53b33",
+    "storage_bucket": "chat-app-2-53b33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973951282210:android:6134a81cc44713cc312e7b",
+        "android_client_info": {
+          "package_name": "com.innova.firestorechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973951282210-e2c0puv0egs1at66hf4ck5nm1oomjm08.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM4BhYZZH6QyeYXkTdtZjre7eq1SQqGHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973951282210-e2c0puv0egs1at66hf4ck5nm1oomjm08.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
